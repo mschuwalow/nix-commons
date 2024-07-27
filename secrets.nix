@@ -9,5 +9,7 @@ let
 in
 {
   "secrets/gpg-subkeys.age".publicKeys = [ users.mschuwalow ];
-  "secrets/github_rsa.age".publicKeys = [ users.mschuwalow ];
+  "secrets/ssh/github_rsa.age".publicKeys = [ users.mschuwalow ];
+  "secrets/ssh/truenas_rsa.age".publicKeys = [ users.mschuwalow ];
+  "secrets/ssh/pihole_rsa.age".publicKeys = [ users.mschuwalow ];
 }
